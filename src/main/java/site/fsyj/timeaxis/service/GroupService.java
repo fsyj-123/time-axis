@@ -4,7 +4,7 @@ import site.fsyj.timeaxis.entity.Group;
 
 public interface GroupService {
 
-
+   //mapper里自带的一系列功能
     int deleteByPrimaryKey(Integer id);
 
     int insert(Group record);
