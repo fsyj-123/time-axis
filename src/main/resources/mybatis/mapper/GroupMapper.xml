@@ -63,7 +63,7 @@
     where id = #{id}
   </update>
   <update id="updateByPrimaryKey" parameterType="site.fsyj.timeaxis.entity.Group">
-    <!--@mbg.generated-->
+    <!---->
     update t_group
     set `name` = #{name},
       creator = #{creator}
